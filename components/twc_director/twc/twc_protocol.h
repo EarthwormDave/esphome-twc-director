@@ -290,7 +290,7 @@ bool twc_decode_heartbeat_payload(const uint8_t *payload,
 //
 // Returns true on success.
 typedef struct {
-  uint16_t max_allowable_centiamps,
+  uint16_t max_allowable_centiamps;
   uint16_t current_available_centiamps;
 } twc_peripheral_negotiation_data_t;
 
